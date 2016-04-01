@@ -1,0 +1,70 @@
+/*初始化*/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+/*body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; }*/
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+address, cite, dfn, em, var { font-style:normal; }
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
+small{ font-size:12px; }
+/*ul, ol { list-style:none; }*/
+a { text-decoration:none; }
+a:hover { text-decoration:underline; }
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; }
+
+*{
+    font-family:"微软雅黑",sans-serif;
+}
+
+.father_box{
+    margin:20px 10px;
+    background: #EEE;
+    height:500px;
+    position: relative;
+    border: 1px solid #999;
+    padding: 20px;
+}
+
+.box_left{
+    float:left;
+    background: #FFFFFF;
+    border: 1px solid #999;
+    width: 160px;
+    padding: 20px;
+    zoom: 1;
+}
+
+img{
+    float:left;
+    margin-right: 10px;
+}
+
+.text_field{
+    margin-left: 5px;
+}
+
+.box_right{
+    float: right;
+    background: #FFFFFF;
+    border: 1px solid #999;
+    width: 120px;
+}
+
+.personal_logo{
+    max-width: 80px;
+    border: 1px solid #999;
+    margin: 20px;
+    display: block;
+}
+
+.box_center{
+    padding: 20px;
+    margin-left: 220px;
+    margin-right: 140px;
+    background-color: #FFFFFF;
+    border: 1px solid #797979;
+    width: auto;
+}
