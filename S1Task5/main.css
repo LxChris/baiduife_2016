@@ -1,0 +1,194 @@
+/*index.html的CSS样式*/
+/**{
+    padding:0;
+    margin:0;
+}*/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+/*body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; }*/
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+address, cite, dfn, em, var { font-style:normal; }
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
+small{ font-size:12px; }
+/*ul, ol { list-style:none; }*/
+a { text-decoration:none; }
+a:hover { text-decoration:underline; }
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; }
+
+*{
+    font-family:"微软雅黑",sans-serif;
+}
+
+
+
+body{
+    background: #DEDEDE;
+}
+
+.top-header {
+    height: 50px;
+    width: 100%;
+    background-color: #333333;
+    display: table;
+    vertical-align: middle;
+}
+
+.top-header ul{
+    color:red;
+}
+
+.top-link{
+    float:right;
+    margin-top:15px;
+    margin-right:20px;
+    list-style-type: disc;
+}
+
+.top-link li{
+    float: left;
+    margin-right: 1.2em;
+    text-decoration: none;
+}
+
+.top-link a,.top-link a:visited{
+    color: white;
+}
+
+.top-link a:hover{
+    color: pink;
+}
+
+
+.passage a,.passage a:visited{color:blue;}
+.passage a:hover {color:hotpink;}
+
+
+h2{
+    font-size: 24px;
+    line-height:200%;
+}
+
+h3{
+    font-size: 20px;
+    color:#6F624F;
+    line-height:180%;
+}
+
+h4{
+    font-size: 16px;
+    color: #6F624F;
+    line-height:160%;
+}
+
+.passage{
+    background: white;
+    padding: 30px 20px;
+    margin: 20px;
+    border-style:none outset outset none;
+}
+
+.passage p{
+    text-indent: 2em;
+    line-height: 160%;
+}
+
+.left_box{
+    margin-right: 520px;
+    margin-left: 20px;
+}
+
+.right_box{
+    float: right;
+    width: 500px;
+    margin-right: 40px;
+}
+
+.siderbar{
+    background: white;
+    padding: 30px 20px;
+    margin: 20px 0 0 20px;
+    border-style:none outset outset none;
+}
+
+.list_project{
+    text-indent: 2em;
+    list-style-type: none;
+}
+
+.picture-box{
+    width: 150px;
+    padding: 20px 20px 20px 20px;
+    border-style: solid;
+    border-color: grey;
+    border-widows: 1px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.photo{
+    max-width:150px;
+}
+.submit_form{
+    line-height:260%;
+    margin:20px auto 20px;
+    width:500px;
+}
+
+.inform_group{
+    text-align: right;
+}
+
+.inform_tip{
+    color: #CCCCCC;
+}
+ul.rank{
+    list-style-type: decimal;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+    font-weight:normal;
+    text-indent: 0.5em;
+}
+
+th{
+    height:25px;
+    text-align: left;
+    color: white;
+    background: black;
+}
+
+td{
+    height:25px;
+}
+
+.inform{
+    color: darkgrey;
+}
+
+.button{
+    color: white;
+    width:60%;
+    height: 35px;
+    margin-left:20%;
+    margin-right:20%;
+    background: #3355D0;
+    border:2px solid;
+    border-radius:10px;
+    -moz-border-radius:10px; /* Old Firefox */
+}
+
+footer{
+    background: #000000;
+    color: #FFFFFF;
+    text-align: center;
+}
