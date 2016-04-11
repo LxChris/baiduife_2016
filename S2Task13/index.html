@@ -16,13 +16,13 @@
     var button = document.getElementById("button");
     var input = document.getElementById("aqi-input");
 
-    input.onkeypress = function(e){
+    input.onkeypress = function(e){     //当回车键按下时,触发按钮按下事件
         if(e.keyCode == 13){
             button.click();
         }
     }
 
-    button.onclick = function(e){
+    button.onclick = function(e){       //按钮按下时,获取"aqi-input"内的值并显示在"aqi-display"上
         var inputValue = input.value;
         showvalue.innerHTML = inputValue;
     }
