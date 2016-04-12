@@ -12,7 +12,7 @@
 <div>您输入的值是：<span id="aqi-display">尚无录入</span></div>
 
 <script type="text/javascript">
-    var showvalue = document.getElementById("aqi-display");
+    var showValue = document.getElementById("aqi-display");
     var button = document.getElementById("button");
     var input = document.getElementById("aqi-input");
 
@@ -24,7 +24,12 @@
 
     button.onclick = function(e){       //按钮按下时,获取"aqi-input"内的值并显示在"aqi-display"上
         var inputValue = input.value;
-        showvalue.innerHTML = inputValue;
+        if((isNaN(inputValue))||(inputValue<0)){
+            alert('输入数值不合法,请重新输入');
+        }else{
+            showValue.innerHTML = inputValue;
+        }
+
     }
     /*
     待添加功能,输入数据是否符合要求,是否大于0以及是否是数字
