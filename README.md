@@ -1,6 +1,6 @@
 # Baidu IFE 2016 Spring Readme
 
-标签（空格分隔）： Readme
+标签： Readme
 
 ---
 
