@@ -1,0 +1,177 @@
+/*index.html的CSS样式*/
+/**{
+    padding:0;
+    margin:0;
+}*/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+/*body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; }*/
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+address, cite, dfn, em, var { font-style:normal; }
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
+small{ font-size:12px; }
+/*ul, ol { list-style:none; }*/
+a { text-decoration:none; }
+a:hover { text-decoration:underline; }
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; }
+
+*{
+    font-family:"微软雅黑",sans-serif;
+}
+
+body{
+    background-color: #5D5D5D;
+}
+
+.newspaper{
+    margin: 40px auto;
+    height: 1386px;
+    width: 980px;
+    background-color: #FFFFFF;
+}
+
+header{
+    border-bottom: 2px solid #938e8c;
+    height: 61px;
+    width: 892px;
+    margin: 0 auto;
+}
+
+.top_background{
+    background-color: #d45d5c;
+    width: 110px;
+    height: 61px;
+    display: inline-block;
+}
+
+.top_background span{
+    font-family:"黑体",sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    margin-top: 45px;
+    margin-left: 5px;
+    float: left;
+}
+
+.top_time{
+    float: right;
+    font-size: 12px;
+    color: #d45d5c;
+    margin-top: 45px;
+}
+
+.middle{
+    margin-left: 44px;
+    margin-right: 44px;
+    margin-top: 35px;
+}
+
+.middle-left{
+    display: inline-block;
+    position: relative;
+}
+
+.middle-left-green{
+    background-color: #458759;
+    width: 191px;
+    height: 301px;
+    opacity:0.5;
+    filter:alpha(opacity=50); /* 针对 IE8 以及更早的版本 */
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.middle-left-red{
+    background-color: #cc7680;
+    width: 191px;
+    height: 301px;
+    opacity:0.5;
+    filter:alpha(opacity=50); /* 针对 IE8 以及更早的版本 */
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.middle-right{
+    border-top: 2px solid #cc8091;
+    float: right;
+    width: 203px;
+    line-height: 40px;
+}
+
+.right-about{
+    font-size: 24px;
+    color: #000;
+    text-decoration: underline;
+}
+
+.right-technology{
+    font-size: 24px;
+    color: #000;
+    text-decoration: underline;
+}
+
+.right-description{
+    font-size: 12px;
+    color: #676767;
+    font-family: "楷体",sans-serif;
+    line-height: 14px;
+    font-style: italic;
+}
+
+.right-700{
+    font-size: 116px;
+    color: #75b86b;
+    font-style: italic;
+    margin-top: 50px;
+    margin-left: -30px;
+    font-weight: bold;
+}
+
+.right-32{
+    font-size: 55px;
+    color: #cc8091;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.right-css{
+    font-size: 21px;
+    color: #cc8091;
+    display:inline-block;
+    position: relative;
+    top: -20px;
+}
+
+.right-cssss{
+    font-style: 12px;
+    color: #ccc;
+    display: inline-block;
+    position: relative;
+    top: -42px;
+    left: 83px;
+}
+
+.second_part{
+    margin-left: 44px;
+    margin-top: 20px;
+}
+.what{
+    width: 230px;
+}
+
+.what span{
+    font-size: 16px;
+    font-weight: bold;
+    color: #448459;
+    text-decoration: underline;
+}
+
+.text{
+    margin-top: 20px;
+}
