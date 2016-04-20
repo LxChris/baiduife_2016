@@ -1,12 +1,12 @@
 <!DOCTYPE>
 <html>
 <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <title>IFE JavaScript Task 01</title>
 </head>
 <body>
 
-<ul id="source">
+<ul id='source'>
     <li>北京空气质量：<b>90</b></li>
     <li>上海空气质量：<b>70</b></li>
     <li>天津空气质量：<b>80</b></li>
@@ -16,7 +16,7 @@
     <li>成都空气质量：<b>90</b></li>
 </ul>
 
-<ul id="resort">
+<ul id='resort'>
     <!--
     <li>第一名：北京空气质量：<b>90</b></li>
     <li>第二名：北京空气质量：<b>90</b></li>
@@ -24,11 +24,11 @@
      -->
 </ul>
 
-<button id="sort-btn">排序</button>
+<button id='sort-btn'>排序</button>
 
-<script type="text/javascript">
+<script type='text/javascript'>
     var data = [
-            ["长沙",11]
+            ['长沙',11]
     ];
     /**
      * getData方法
@@ -36,10 +36,10 @@
      * 返回一个数组，格式见函数中示例
      */
     function getData() {
-        var originList = document.getElementById("source").getElementsByTagName("li");
+        var originList = document.getElementById('source').getElementsByTagName('li');
         for(var i = 0; i < originList.length; i++){
             var city = originList[i].innerText.match(/(.*?)空气/)[1];
-            var num = originList[i].getElementsByTagName("b")[0].innerText;
+            var num = originList[i].getElementsByTagName('b')[0].innerText;
             data[i] = [];
             data[i][0] = city;
             data[i][1] = num;
@@ -68,7 +68,7 @@
      */
     function render(data) {
         var showValue = '';
-        var showList = document.getElementById("resort");
+        var showList = document.getElementById('resort');
         for(var i=0;i<data.length;i++){
             showValue += '<li>第'+(i+1)+'名：'+data[i][0]+'空气质量：'+data[i][1]+'</li>';
         }
@@ -84,7 +84,7 @@
 
     function init() {
         // 在这下面给sort-btn绑定一个点击事件，点击时触发btnHandle函数
-        document.getElementById("sort-btn").onclick = btnHandle;
+        document.getElementById('sort-btn').onclick = btnHandle;
     }
 
     init();

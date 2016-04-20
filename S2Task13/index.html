@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <title>IFE JavaScript Task 01</title>
 </head>
 <body>
 
-<label>请输入北京今天空气质量：<input id="aqi-input" type="text"></label>
-<button id="button">确认填写</button>
+<label>请输入北京今天空气质量：<input id='aqi-input' type='text'></label>
+<button id='button'>确认填写</button>
 
-<div>您输入的值是：<span id="aqi-display">尚无录入</span></div>
+<div>您输入的值是：<span id='aqi-display'>尚无录入</span></div>
 
-<script type="text/javascript">
-    var showValue = document.getElementById("aqi-display");
-    var button = document.getElementById("button");
-    var input = document.getElementById("aqi-input");
+<script type='text/javascript'>
+    var showValue = document.getElementById('aqi-display');
+    var button = document.getElementById('button');
+    var input = document.getElementById('aqi-input');
 
     input.onkeypress = function(e){     //当回车键按下时,触发按钮按下事件
         if(e.keyCode == 13){
@@ -22,7 +22,7 @@
         }
     }
 
-    button.onclick = function(e){       //按钮按下时,获取"aqi-input"内的值并显示在"aqi-display"上
+    button.onclick = function(e){       //按钮按下时,获取'aqi-input'内的值并显示在'aqi-display'上
         var inputValue = input.value;
         if((isNaN(inputValue))||(inputValue<0)){
             alert('输入数值不合法,请重新输入');
