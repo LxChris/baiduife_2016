@@ -1,0 +1,64 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+/*body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; }*/
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+address, cite, dfn, em, var { font-style:normal; }
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
+small{ font-size:12px; }
+/*ul, ol { list-style:none; }*/
+a { text-decoration:none; }
+a:hover { text-decoration:underline; }
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; }
+
+*{
+    font-family: "微软雅黑", sans-serif;
+    font-size: 30px;
+}
+
+.table_box{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+table{
+    border: 1px solid #CCCCCC;
+    text-align: center;
+}
+
+th{
+    width: 250px;
+    height: 2em;
+    color: #FFFFFF;
+    background-color: #333333;
+}
+
+th p{
+    display: inline-block;
+}
+
+.up{
+    position:relative;
+    left: 2px;
+}
+
+.up:hover{
+    cursor: pointer;
+}
+
+.down{
+    position: relative;
+    top: 2px;
+    transform:rotate(180deg);
+    -ms-transform:rotate(180deg); 	/* IE 9 */
+    -moz-transform:rotate(180deg); 	/* Firefox */
+    -webkit-transform:rotate(180deg); /* Safari 和 Chrome */
+    -o-transform:rotate(180deg); 	/* Opera */
+}
+
+.down:hover{
+    cursor: pointer;
+}
