@@ -6,7 +6,14 @@
 
 ## 百度前端技术学院 2016春季 GitHub托管
 
+
+
 ### 任务完成进度:
+
+###### 最后一次更新:
+2016年5月18日 10:40:18
+
+大坑Task6完成,正在填其他坑中...![滑稽](http://ww3.sinaimg.cn/large/005TbPZpgw1f32y3xbz2mg301f01fmx0.gif)
 
 ---
 阶段一:
@@ -16,7 +23,8 @@
 - [x] Task3
 - [x] Task4
 - [x] Task5
-- [ ] Task6 占坑中,尚未完成 ![滑稽](http://ww3.sinaimg.cn/large/005TbPZpgw1f32y3xbz2mg301f01fmx0.gif)
+- [x] Task6
+- [ ] Task7 正在完成中... ![滑稽](http://ww3.sinaimg.cn/large/005TbPZpgw1f32y3xbz2mg301f01fmx0.gif)
 
 ---
 阶段二:
@@ -32,4 +40,4 @@
 
 - [x] Task37
 - [x] Task38
-- [x] Task39 占坑中,尚未完成 ![滑稽](http://ww3.sinaimg.cn/large/005TbPZpgw1f32y3xbz2mg301f01fmx0.gif)
+- [ ] Task39 占坑中,尚未完成 ![滑稽](http://ww3.sinaimg.cn/large/005TbPZpgw1f32y3xbz2mg301f01fmx0.gif)

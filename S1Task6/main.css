@@ -68,6 +68,7 @@ header{
     margin-left: 44px;
     margin-right: 44px;
     margin-top: 35px;
+    /*border: 1px solid black;*/
 }
 
 .middle-left{
@@ -102,6 +103,7 @@ header{
     float: right;
     width: 203px;
     line-height: 40px;
+    height: 300px;
 }
 
 .right-about{
@@ -149,7 +151,7 @@ header{
 }
 
 .right-cssss{
-    font-style: 12px;
+    font-size: 12px;
     color: #ccc;
     display: inline-block;
     position: relative;
@@ -159,10 +161,17 @@ header{
 
 .second_part{
     margin-left: 44px;
-    margin-top: 20px;
+    margin-top: 50px;
+    /*border: 1px solid black;*/
+    /*width: 641px;*/
+    height: 230px;
 }
+
 .what{
     width: 230px;
+    float:left;
+    display:inline-block;
+    margin-right: 10px;
 }
 
 .what span{
@@ -173,5 +182,284 @@ header{
 }
 
 .text{
+    font-size: 12px;
+    color: #231815;
+    line-height: 16px;
+
+}
+
+.text_text1{
+    margin-top: 30px;
+    font-size: 12px;
+    font-family: "微软雅黑",sans-serif;
+}
+
+.text_text1 p span{
+    font-size:12px;
+    font-family: "微软雅黑",sans-serif;
+    color: #cd4a48;
+    font-style: italic;
+    opacity:0.7;
+    filter:alpha(opacity=70); /* 针对 IE8 以及更早的版本 */
+    text-decoration: none;
+}
+
+.when{
+    width: 230px;
+    float:left;
+    display:inline-block;
+    margin-right: 10px;
+}
+
+.when span{
+    font-size: 16px;
+    font-weight: bold;
+    color: #d2994f;
+    text-decoration: underline;
+}
+
+.how{
+    width: 230px;
+    float:left;
+    margin: 0;
+    display:inline-block;
+    margin-right: 10px;
+}
+
+.how span{
+    font-size: 16px;
+    font-weight: bold;
+    color: #cc7680;
+    text-decoration: underline;
+}
+
+.text{
     margin-top: 20px;
+}
+
+.left{
+    margin-left: 44px;
+    float:left;
+    display: inline-block;
+    width: 416px;
+    /*border: 1px solid black;*/
+}
+
+.left_fbox{
+    float: left;
+    display:inline-block;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #0f4569;
+}
+
+.left_sbox{
+    float:left;
+    display: inline-block;
+}
+
+.text_1{
+    font-size: 72px;
+    color: #f5e327;
+    font-style: italic;
+    font-family: "黑体",sans-serif;
+}
+
+.text_2{
+    font-size: 42px;
+    color: #11456b;
+    line-height: 16px;
+    font-weight: bold;
+    font-family: "黑体",sans-serif;
+}
+
+.text_3{
+    margin-top: 16px;
+    font-size: 33px;
+    font-weight: bold;
+    color: #11456b;
+    font-family: "黑体",sans-serif;
+}
+
+.text_4:first-letter{
+    float:left;
+    font-size: 70px;
+    color: #f5e327;
+    font-family: "微软雅黑",sans-serif;
+    line-height: 70px;
+}
+
+.text_4{
+    margin-top: 30px;
+    font-size: 12px;
+    color: #767777;
+    font-family: "宋体", sans-serif;
+    line-height: 16px;
+}
+
+.text_4 img{
+    float:right;
+    margin: 12px 0 12px 0;
+}
+
+.text_5{
+    font-size: 12px;
+    color: #767777;
+    font-family: "宋体", sans-serif;
+    line-height: 16px;
+    text-indent: 2em;
+}
+
+.text_6{
+    font-size: 12px;
+    color: #767777;
+    font-family: "宋体", sans-serif;
+    line-height: 16px;
+    text-indent: 2em;
+}
+
+.text_6{
+    font-size: 12px;
+    color: #767777;
+    font-family: "宋体", sans-serif;
+    line-height: 16px;
+    text-align: 2em;
+}
+
+.right{
+    /*display:inline-block;*/
+    float:left;
+    margin-left: 10px;
+    /*height: 457px;*/
+    width: 458px;
+    /*border: 1px solid black;*/
+}
+
+.right_pic{
+    width: 458px;
+    height: 257px;
+    position: relative;
+}
+
+.master{
+    width: 458px;
+    height: 61px;
+    background: #000;
+    filter:alpha(opacity=40); /*IE滤镜，透明度50%*/
+    -moz-opacity:0.4; /*Firefox私有，透明度50%*/
+    opacity:0.4;/*其他，透明度50%*/
+    position: absolute;
+    bottom: 0px;
+
+}
+
+.master p{
+    color: white;
+    border-left: 3px solid #72b16a;
+    font-size: 26px;
+    font-family: 微软雅黑,sans-serif;
+    margin-left: 50px;
+    line-height: 44px;
+    height: 44px;
+    margin-top: 10px;
+    text-indent: 0.5em;
+
+}
+
+.master p span{
+    font-size: 12px;
+    color: #72b16a;
+    font-family: 微软雅黑,sans-serif;
+    font-style: italic;
+    line-height: 140%;
+    margin-left: 5px;
+}
+
+.right_bottom{
+    margin-top: 30px;
+    width: 459px;
+    height: 318px;
+    background-color: #eeeed6;
+    position: relative;
+}
+
+.right_bottom_text{
+    margin-top: 20px;
+    margin-left: 15px;
+    position: absolute;
+}
+
+.right_bottom_text p{
+    font-family: "宋体",sans-serif;
+    font-size: 16px;
+    color: #5a5b5b;
+    margin-bottom: 16px;
+}
+
+.right_bottom_red{
+    height: 160px;
+    width: 260px;
+    background-color: #d55d5c;
+    position: absolute;
+    bottom: 0px;
+    float:left;
+}
+
+.text1{
+    font-size: 86px;
+    color: #ffffff;
+    border-right: 2px solid white;
+    margin-top: 25px;
+    margin-left: 5px;
+    display:inline-block;
+    font-family: "黑体",sans-serif;
+}
+
+.text2{
+    font-size: 22px;
+    color: #ffffff;
+    display:inline-block;
+    font-family: "黑体",sans-serif;
+    position: relative;
+    top: -55px;
+    left: 5px;
+    font-style: italic;
+}
+
+.text3{
+    font-size: 22px;
+    color: #ffffff;
+    display:inline-block;
+    font-family: "黑体",sans-serif;
+    font-style: italic;
+    position: relative;
+    top: -65px;
+    left: 55px;
+}
+
+.text4{
+    font-size: 14px;
+    color: #ffffff;
+    display:inline-block;
+    font-family: "黑体",sans-serif;
+    position: relative;
+    top: -65px;
+    left: 58px;
+}
+
+.right_bottom_text2{
+    font-family: "黑体",sans-serif;
+    height: 165px;
+    width: 178px;
+    position: absolute;
+    bottom: 0px;
+    right:0px;
+    padding-left: 10px;
+    padding-right: 5px;
+    font-style: italic;
+}
+
+.right_bottom_text2 span{
+    color:#d55d5c;
+    font-size: 20px;
+    font-style: normal;
 }
